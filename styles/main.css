@@ -1,0 +1,28 @@
+@import '/styles/blocks/header/header.css';
+@import '/styles/blocks/fonts.css';
+
+:root{
+  --hover-blue: #118DA8;
+  --global-background: #191919;
+}
+
+/*GLOBAL STYLES*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--global-background);
+  color: white;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  min-width: 1280px;
+  max-width: 1920px;
+}
+
+button {
+  cursor: pointer;
+}
