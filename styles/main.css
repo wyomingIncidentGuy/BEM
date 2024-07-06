@@ -1,5 +1,7 @@
 @import '../styles/blocks/header/header.css';
+@import '../styles/blocks/main/main_styles.css';
 @import '../styles/blocks/fonts.css';
+@import '../styles/blocks/nav/nav.css';
 
 
 /*GLOBAL STYLES*/
@@ -22,6 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   min-width: 1280px;
   max-width: 1920px;
+  font-family: 'DM-Sans';
 }
 
 button {
