@@ -1,0 +1,9 @@
+.apps__list{
+    display:flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.apps__heading{
+    margin: 30px 0 20px 0;
+}

@@ -1,0 +1,23 @@
+.main__introduction{
+    display:flex;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+}
+
+.content__wrapper{
+    display: flex;
+    width:calc(100% - 676px);
+    justify-content: center;
+}
+
+.introduction__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__heading{
+    font-weight: 300;
+    font-size: 70px;
+}
