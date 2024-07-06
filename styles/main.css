@@ -1,12 +1,13 @@
-@import '/styles/blocks/header/header.css';
-@import '/styles/blocks/fonts.css';
+@import '../styles/blocks/header/header.css';
+@import '../styles/blocks/fonts.css';
 
+
+/*GLOBAL STYLES*/
 :root{
   --hover-blue: #118DA8;
   --global-background: #191919;
 }
 
-/*GLOBAL STYLES*/
 * {
   margin: 0;
   padding: 0;
